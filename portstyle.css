@@ -403,7 +403,19 @@ margin-left:5px;
   background-size: cover;
   background-position: center;
 }
+.hero3{
+  height: 100vh;
+  width: 100%;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: center;
+}
 
+form{
+margin-left: -50px;
+width: 90%;
+max-width: 300px;
+}
 }
 
 
