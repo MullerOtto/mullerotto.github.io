@@ -306,3 +306,104 @@ textarea:valid~lable{
   top: -35px;
   font-size: 14px;
 }
+
+
+@media only screen and (max-width:700px){
+
+
+  .hero{
+    height: 65vh;
+    width: 100%;
+    background-color: black;
+  }
+
+  nav ul{
+    width: 100%;
+    background: blue;
+    position: absolute;
+    top:0px;
+    right: 0;
+    z-index: 2;
+  }
+
+  .btn{
+     margin-top:55px;
+  }
+
+.logo{
+  display: none;
+}
+
+.content{
+  position: absolute;
+  top: 45%;
+  left:8%;
+}
+
+h1{
+  color: white;
+  margin: 10px 0px 20px;
+  font-size: 45px;
+}
+
+h3{
+  color: white;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+h4{
+  color: white;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.about img{
+  display: none;
+}
+
+.about h2{
+  margin-top: 0%;
+  margin-left: 10%;
+  font-size: 45px;
+}
+
+.about-text h5{
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  margin-left: 5%;
+  text-transform: capitalize;
+}
+.about-text p {
+width: 75%;
+margin-left:5px;
+
+}
+.awards{
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 60%;
+  left:15%;
+}
+
+.sheadings{
+  color: white;
+  position: absolute;
+  top: 20%;
+  left:15%;
+}
+
+.hero1{
+  height: 100vh;
+  width: 100%;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+}
+
+
